@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-10-15T09:39:33.232Z",
+  "sourceModel": "/models/MaterialsVariantsShoe.glb",
+  "flagshipModel": "/models/aether-apex-01.glb",
+  "pedestalModel": "/models/aero-pedestal.glb",
+  "textures": {
+    "diffuseStreet": "/textures/shoe-diffuse-street.jpg",
+    "diffuseMidnight": "/textures/shoe-diffuse-midnight.jpg",
+    "diffuseBeach": "/textures/shoe-diffuse-beach.jpg",
+    "normal": "/textures/shoe-normal.jpg",
+    "orm": "/textures/shoe-orm.jpg"
+  },
+  "stats": {
+    "shoeFileSizeKB": 704.4,
+    "shoeVertexCount": 13540,
+    "shoeTriangleCount": 22700,
+    "pedestalTriangleCount": 2688,
+    "partCount": 12
+  },
+  "parts": [
+    {
+      "id": "Outsole_Tread",
+      "label": "Graphene-X Chevron Outsole",
+      "category": "Traction Base",
+      "weightGrams": 34,
+      "explodeVector": [
+        0,
+        -0.82,
+        0
+      ],
+      "hotspotPos": [
+        0.48,
+        -0.52,
+        0.45
+      ],
+      "description": "Directional micro-chevron graphene rubber compound engineered for 1.42G lateral wet/dry traction.",
+      "vertexCount": 377,
+      "triangleCount": 680
+    },
+    {
+      "id": "Carbon_Torsion_Plate",
+      "label": "Tri-Axial Forged Carbon Plate",
+      "category": "Propulsion Core",
+      "weightGrams": 18,
+      "explodeVector": [
+        0,
+        -0.48,
+        0
+      ],
+      "hotspotPos": [
+        -0.15,
+        -0.36,
+        0.54
+      ],
+      "description": "Full-length S-curved aerospace carbon weave with lateral stability wings delivering 94.8% propulsion return.",
+      "vertexCount": 616,
+      "triangleCount": 972
+    },
+    {
+      "id": "Midsole_AeroFoam",
+      "label": "Nitrogen Supercritical AeroFoam",
+      "category": "Impact Chassis",
+      "weightGrams": 46,
+      "explodeVector": [
+        -0.16,
+        -0.25,
+        0
+      ],
+      "hotspotPos": [
+        -1.18,
+        -0.24,
+        0.48
+      ],
+      "description": "Supercritical nitrogen-infused aliphatic TPU chassis with cantilevered rear tail-fin.",
+      "vertexCount": 684,
+      "triangleCount": 1152
+    },
+    {
+      "id": "Air_Energy_Pods",
+      "label": "Dual-Chamber NitroPods™",
+      "category": "Kinetic Cushioning",
+      "weightGrams": 22,
+      "explodeVector": [
+        0.14,
+        -0.3,
+        0.46
+      ],
+      "hotspotPos": [
+        -0.88,
+        -0.3,
+        0.48
+      ],
+      "description": "Recessed lateral and medial kinetic gill pods tuned for instant rebound under high-cadence loads.",
+      "vertexCount": 624,
+      "triangleCount": 768
+    },
+    {
+      "id": "Upper_PrimeKnit",
+      "label": "AeroWeave™ Monofilament Upper",
+      "category": "Adaptive Shell",
+      "weightGrams": 28,
+      "explodeVector": [
+        0,
+        0.22,
+        0
+      ],
+      "hotspotPos": [
+        0.58,
+        0.22,
+        0.48
+      ],
+      "description": "Seamless 3D-knitted ballistic aramid & monofilament upper mapped to 14 distinct foot tension zones.",
+      "vertexCount": 1096,
+      "triangleCount": 1926
+    },
+    {
+      "id": "Insole_Footbed",
+      "label": "Ortho-Kinetic Lattice Footbed",
+      "category": "Interior Ergonomics",
+      "weightGrams": 11,
+      "explodeVector": [
+        -0.1,
+        0.54,
+        0
+      ],
+      "hotspotPos": [
+        -0.58,
+        0.22,
+        0
+      ],
+      "description": "DLS 3D-printed auxetic lattice insole and padded ankle collar lining.",
+      "vertexCount": 464,
+      "triangleCount": 696
+    },
+    {
+      "id": "Tongue_AeroMesh",
+      "label": "Gusseted Neoprene Air-Tongue",
+      "category": "Instep Ergonomics",
+      "weightGrams": 8,
+      "explodeVector": [
+        -0.18,
+        0.72,
+        0
+      ],
+      "hotspotPos": [
+        -0.34,
+        0.56,
+        0
+      ],
+      "description": "3D-molded perforated neoprene tongue with woven signature crest patch.",
+      "vertexCount": 935,
+      "triangleCount": 1680
+    },
+    {
+      "id": "Overlays_Exoskeleton",
+      "label": "TPU Exoskeleton Lockdown Cage",
+      "category": "Structural Frame",
+      "weightGrams": 9,
+      "explodeVector": [
+        0.22,
+        0.42,
+        0.38
+      ],
+      "hotspotPos": [
+        0.12,
+        0.18,
+        0.54
+      ],
+      "description": "Structural nubuck suede and ultrasonic-welded TPU exoskeleton panels anchoring the midfoot.",
+      "vertexCount": 1002,
+      "triangleCount": 1738
+    },
+    {
+      "id": "Heel_Counter_Clip",
+      "label": "Forged Titanium-Carbon Heel Cup",
+      "category": "Rearfoot Lock",
+      "weightGrams": 12,
+      "explodeVector": [
+        -0.68,
+        0.16,
+        0
+      ],
+      "hotspotPos": [
+        -1.54,
+        0.04,
+        0.34
+      ],
+      "description": "External anatomical rearfoot stabilizer spine and woven pull-loop preventing torsional heel slip.",
+      "vertexCount": 799,
+      "triangleCount": 1240
+    },
+    {
+      "id": "Eyelets_Hardware",
+      "label": "CNC Grade-5 Titanium Eyelets",
+      "category": "Precision Hardware",
+      "weightGrams": 4,
+      "explodeVector": [
+        0.08,
+        0.84,
+        0.28
+      ],
+      "hotspotPos": [
+        -0.1,
+        0.44,
+        0.3
+      ],
+      "description": "Micro-machined Grade-5 Ti-6Al-4V toroid eyelets chamfered for zero-friction lace equalization.",
+      "vertexCount": 2304,
+      "triangleCount": 3840
+    },
+    {
+      "id": "Laces_CrossWeave",
+      "label": "Dyneema® Kevlar Tension Laces",
+      "category": "Dynamic Lockdown",
+      "weightGrams": 5,
+      "explodeVector": [
+        0.14,
+        0.98,
+        0
+      ],
+      "hotspotPos": [
+        0.04,
+        0.5,
+        0
+      ],
+      "description": "Hydrophobic braided Dyneema® cordage interwoven with micro-silicone grip threads.",
+      "vertexCount": 3643,
+      "triangleCount": 6216
+    },
+    {
+      "id": "Signature_Blade_Logo",
+      "label": "AETHER Kinetic Vector Blade",
+      "category": "Aerodynamic Crest",
+      "weightGrams": 3,
+      "explodeVector": [
+        0,
+        0.32,
+        0.72
+      ],
+      "hotspotPos": [
+        -0.26,
+        0.06,
+        0.58
+      ],
+      "description": "Swept lateral and medial vector gill blades functioning as boundary-layer vortex generators.",
+      "vertexCount": 996,
+      "triangleCount": 1792
+    }
+  ]
+}

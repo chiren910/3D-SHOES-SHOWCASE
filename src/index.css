@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-color: #d4ff00;
+  --accent-rgb: 212, 255, 0;
+  color-scheme: dark;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+body {
+  background-color: #06070b;
+  color: #f4f5f8;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Architectural background grid */
+.bg-tech-grid {
+  background-size: 64px 64px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+}
+
+/* Compositor-friendly luxury dark glass panels (Zero WebGL backdrop-blur readback lag during scroll) */
+.glass-panel {
+  background: linear-gradient(145deg, rgba(15, 18, 28, 0.90), rgba(9, 11, 18, 0.94));
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-strong {
+  background: linear-gradient(145deg, rgba(16, 19, 30, 0.95), rgba(8, 10, 16, 0.98));
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 20px 48px -12px rgba(0, 0, 0, 0.7);
+}
+
+.cv-section {
+  position: relative;
+}
+
+.text-stroke-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.14);
+  color: transparent;
+}
+
+.text-stroke-accent {
+  -webkit-text-stroke: 1.5px var(--accent-color);
+  color: transparent;
+}
+
+/* Custom sleek range slider for 3D explosion & customizer */
+input[type='range'].aether-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.12);
+  height: 6px;
+  border-radius: 999px;
+  outline: none;
+}
+
+input[type='range'].aether-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  cursor: pointer;
+  border: 2px solid #06070b;
+  box-shadow: 0 0 12px var(--accent-color);
+  transition: transform 0.15s ease;
+}
+
+input[type='range'].aether-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #06070b;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
